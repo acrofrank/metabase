@@ -3,7 +3,11 @@ import styled from "@emotion/styled";
 import Icon from "metabase/components/Icon";
 
 import { color } from "metabase/lib/colors";
-import { breakpointMaxSmall, space } from "metabase/styled-components/theme";
+import {
+  breakpointMaxSmall,
+  breakpointMinSmall,
+  space,
+} from "metabase/styled-components/theme";
 
 import { APP_BAR_HEIGHT } from "../constants";
 
@@ -68,5 +72,9 @@ export const SearchBarContent = styled.div`
 
   ${breakpointMaxSmall} {
     max-width: 60vw;
+  }
+
+  ${breakpointMinSmall} {
+    position: relative;
   }
 `;
