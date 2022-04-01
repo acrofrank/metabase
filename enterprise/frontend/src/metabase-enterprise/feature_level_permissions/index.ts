@@ -6,7 +6,7 @@ import {
   canAccessDatabaseManagement,
 } from "./utils";
 
-import { getFeatureLevelDataPermissions } from "./permissions";
+import { getFeatureLevelDataPermissions } from "./permission-management";
 import { DATA_COLUMNS } from "./constants";
 
 if (hasPremiumFeature("advanced_permissions")) {
