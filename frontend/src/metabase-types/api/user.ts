@@ -12,7 +12,4 @@ export interface User {
   last_login: string;
   has_invited_second_user: boolean;
   personal_collection_id: number;
-  can_access_data_model: boolean;
-  can_access_database_management: boolean;
-  can_access_monitoring: boolean;
 }
